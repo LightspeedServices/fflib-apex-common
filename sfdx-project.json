@@ -4,11 +4,12 @@
       "path": "sfdx-source/apex-common",
       "default": true,
       "package": "fflib-apex-common",
-      "versionName": "Version 1.0",
-      "versionNumber": "1.0.0.NEXT",
+      "versionName": "Version 1.1",
+      "versionNumber": "1.1.0.NEXT",
       "dependencies": [
         {
-          "package": "fflib-apex-mocks@1.0.0-2"
+          "package": "fflib-apex-mocks@1.1.0-1",
+          "subscriberPackageVersionId": "04tN300000AlpKgIAJ"
         }
       ]
     }
@@ -19,7 +20,6 @@
   "packageAliases": {
     "fflib-apex-common": "0Ho4w000000TN28CAG",
     "fflib-apex-mocks@1.0.0-1": "04t4w000000MqJaAAK",
-    "fflib-apex-common@1.0.0-1": "04t4w000000MqJfAAK",
-    "fflib-apex-common@1.0.0-2": "04tN3000009se89IAA"
+    "fflib-apex-common@1.1.0-1": "04tN300000AlzWvIAJ"
   }
 }
