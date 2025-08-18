@@ -1,0 +1,15 @@
+name: Static Code Security Analysis (apex)
+
+on:
+  push:
+    branches: [ master, main ]
+  pull_request:
+    branches: [ master, main ]
+
+jobs:
+  analyze:
+    permissions:
+      actions: read
+      contents: read
+      security-events: write
+    uses: lightspeed-security/code-scanning-workflows/.github/workflows/apex.yml@main
