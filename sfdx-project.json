@@ -5,7 +5,7 @@
       "default": true,
       "package": "fflib-apex-common",
       "versionName": "Version 1.1",
-      "versionNumber": "1.1.0.NEXT",
+      "versionNumber": "1.1.1.NEXT",
       "dependencies": [
         {
           "package": "fflib-apex-mocks@1.1.0-1",
@@ -20,6 +20,7 @@
   "packageAliases": {
     "fflib-apex-common": "0Ho4w000000TN28CAG",
     "fflib-apex-mocks@1.0.0-1": "04t4w000000MqJaAAK",
-    "fflib-apex-common@1.1.0-1": "04tN300000AlzWvIAJ"
+    "fflib-apex-common@1.1.0-1": "04tN300000AlzWvIAJ",
+    "fflib-apex-common@1.1.1-1": "04tOL000000JoU9YAK"
   }
 }
